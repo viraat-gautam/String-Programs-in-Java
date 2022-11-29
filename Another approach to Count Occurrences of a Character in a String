@@ -1,0 +1,10 @@
+class String1 {
+    public static void main(String[] args) {
+        String str = "Java is the best programming language";
+        int total_length = str.length();
+        int length_after_removing = str.replace("a","").length();
+
+        int length_left = total_length-length_after_removing;
+        System.out.println(length_left);
+    }
+}
